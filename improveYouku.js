@@ -25,8 +25,10 @@ $(document).ready(function(){
     
     var settings_item = $('.disable.q1080p');
     settings_item.removeClass("disable");
+
+    $('.rate-dashboard').append("<div data-val=\'1.25\' class=\'settings-item active\' data-eventlog=\'1.25\'>1.25x</div>");
+
     
-    var playerBox = $('#playerBox');
 
     /*
     var alltags = document.getElementsByTagName("*");
